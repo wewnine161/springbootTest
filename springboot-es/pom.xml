@@ -40,8 +40,6 @@
         <artifactId>docker-maven-plugin</artifactId>
         <version>1.0.0</version>
         <configuration>
-          <!-- docker私服的地址 -->
-          <dockerHost>http://39.106.29.164:2375</dockerHost>
           <!--镜像名称以及版本号-->
           <imageName>elasticsearch:1.0.0</imageName>
           <!--依赖的基础镜像-->
