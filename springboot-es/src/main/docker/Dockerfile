@@ -4,7 +4,7 @@ MAINTAINER deng 605684650@qq.com
 
 VOLUME /ROOT
 
-ADD springboot-es.jar ROOT.jar
+ADD springboot-es-1.0.0.jar ROOT.jar
 
 RUN bash -c 'touch /ROOT.jar'
 
